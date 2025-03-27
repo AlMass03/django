@@ -1,4 +1,4 @@
-rom django.urls import path, include
+from django.urls import path, include
 from rest_framework import routers
 from polls.api_views import UserViewSet, ContainerViewSet, RentalViewSet, SibTransLogViewSet, NotificationViewSet
 from rest_framework import permissions
